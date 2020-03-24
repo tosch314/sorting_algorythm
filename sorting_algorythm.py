@@ -10,12 +10,11 @@ def random_sort(nums):
         random.shuffle(nums)
         counter += 1
         swapped = True
-        print(counter)
-        print(nums)
+  print(counter)
+  print(nums)
 
 
 a = 10
-sophie_list = [2,2,0,6,1,9,9,6]
 random_list = []
 for i in range(0,a):
   n = random.randint(1,30)
@@ -25,4 +24,3 @@ for i in range(0,a):
 
 random_sort(sophie_list)
 
-print(sophie_list)
